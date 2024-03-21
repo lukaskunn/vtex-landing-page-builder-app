@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image{
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+  object-position: center;
+  transition: .8s all cubic-bezier(0, 0, 0, 1);
+}
+
+.enter-animation {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}

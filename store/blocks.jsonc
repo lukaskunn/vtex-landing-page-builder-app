@@ -1,0 +1,7 @@
+{
+    "store.custom#dynamic-landing-page": {
+        "blocks": [
+            "component-render"
+        ]
+    }
+}

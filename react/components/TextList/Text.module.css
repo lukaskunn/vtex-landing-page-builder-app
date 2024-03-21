@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1536px;
+  padding: 42px 0;
+}
+
+.paragraph {
+  margin: 20px 0;
+  transition: .5s all cubic-bezier(0, 0, 0, 1);
+  font-size: 15px;
+}
+
+.paragraph,
+.paragraph-container,
+.paragraph-container>p {
+  color: #292929;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 25px;
+  max-width: 1100px;
+}
+
+.paragraph-container {
+  transition: .5s all cubic-bezier(0, 0, 0, 1);
+}
+
+.enter-animation {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .paragraph,
+  .paragraph-container>p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .container {
+    padding: 42px 20px;
+  }
+}

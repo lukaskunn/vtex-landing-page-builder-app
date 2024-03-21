@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.container > .div {
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.container > .div > .div {
+  position: absolute;
+}
+
+.video {
+  aspect-ratio: 16/9;
+}
